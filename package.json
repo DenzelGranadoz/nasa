@@ -1,0 +1,26 @@
+{
+  "name": "nasa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --prefix backend && npm run test --prefix frontend",
+    "server": "npm run watch --prefix backend",
+    "client": "npm start --prefix frontend",
+    "watch": "npm run server & npm run client",
+    "install-server": "npm install --prefix backend",
+    "install-client": "npm install --prefix frontend",
+    "install": "npm run install-server && npm run install-client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenzelGranadoz/nasa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenzelGranadoz/nasa/issues"
+  },
+  "homepage": "https://github.com/DenzelGranadoz/nasa#readme"
+}
