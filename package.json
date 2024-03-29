@@ -11,7 +11,8 @@
     "install-server": "npm install --prefix backend",
     "install-client": "npm install --prefix frontend",
     "install": "npm run install-server && npm run install-client",
-    "deploy": "npm run build --prefix frontend && npm start --prefix backend"
+    "deploy": "npm run build --prefix frontend && npm start --prefix backend",
+    "deploy-cluster": "npm run build --prefix frontend && npm run cluster --prefix backend"
   },
   "repository": {
     "type": "git",
