@@ -14,7 +14,7 @@ describe('Launches API', () => {
   describe('Test GET /launches', () => {
     test('It should respond with 200 success', async () => {
       const response = await request(app)
-        .get('/v1/launches')
+        .get('/v1/launches?limit=5&page=4')
         .expect('Content-Type', /json/)
         .expect(200);
     });
