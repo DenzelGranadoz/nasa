@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/DenzelGranadoz/nasa/issues"
   },
-  "homepage": "https://github.com/DenzelGranadoz/nasa#readme",
-  "dependencies": {
-    "axios": "^1.6.8"
-  }
+  "homepage": "https://github.com/DenzelGranadoz/nasa#readme"
 }
